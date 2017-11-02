@@ -4,4 +4,5 @@ title: About
 permalink: /about/
 ---
 
-ここに概要を書く
+- Akama Hitoshi
+- 線型算法同好会（[@lin_calc](https://twitter.com/lin_calc)）のいちおう代表です．
