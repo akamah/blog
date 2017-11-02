@@ -1,6 +1,7 @@
 ---
 layout: math
 title:  "プラレール線型代数 (1)"
+categories: plarail
 ---
 
 この記事は[夏合宿](http://blog.cybozu.io/entry/2017/08/30/080000)における @akamah の成果をだいぶ寒くなった頃にまとめたものです．
