@@ -31,9 +31,11 @@ title:  "プラレール線型代数 (2) レールパズル"
 これはS字に曲線レールを接続すると，端っこの向きが同じ方向になるため扱いが楽であるという理由からです．
 そしてこの問題の場合は，ななめに直線レールを敷く時も2本単位で考えればよさそうです．
 
-すると，右上方向の成分を2つ持つレールの組み合わせは次の3種類になります．
+すると，右上方向の成分を2つ持つレールの組み合わせは次の5種類になります．
 
 ![右上，および2種類のS字レール][puzzle3]
+
+![追加で2種類のS字レール][puzzle7]
 
 これらの組み合わせを使ったら繋がりそうです，早速やってみましょう．
 ちょっと左に1回行って回りつつS字をはさんで直線を2本っと.....あれ？
@@ -58,3 +60,4 @@ title:  "プラレール線型代数 (2) レールパズル"
 [puzzle4]: {{ "/assets/plarail-puzzle/puzzle4.jpg" | absolute_url }}
 [puzzle5]: {{ "/assets/plarail-puzzle/puzzle5.jpg" | absolute_url }}
 [puzzle6]: {{ "/assets/plarail-puzzle/puzzle6.jpg" | absolute_url }}
+[puzzle7]: {{ "/assets/plarail-puzzle/puzzle7.jpg" | absolute_url }}
