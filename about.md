@@ -4,5 +4,8 @@ title: About
 permalink: /about/
 ---
 
-- Akama Hitoshi
-- 線型算法同好会（[@lin_calc](https://twitter.com/lin_calc)）のいちおう代表です．
+このブログは赤間の個人ブログです．
+
+# プロフィール
+- Akama Hitoshi（[@akamah](https://github.com/akamah)）
+- 線型算法同好会（[@lin_calc](https://twitter.com/lin_calc)）の代表です．
