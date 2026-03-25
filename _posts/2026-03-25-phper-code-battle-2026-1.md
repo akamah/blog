@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "PHPerKaigi 2026 PHPerコードバトル writeup #1"
+image: /assets/phper-code-battle/1.png
 description: PHPerKaigi 2026 の企画のPHPによるショートコーディングバトルのwriteupです。
 ---
 
