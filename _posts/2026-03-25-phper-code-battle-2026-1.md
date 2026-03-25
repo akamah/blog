@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "PHPerKaigi 2026 PHPerコードバトル writeup (1)"
+title:  "PHPerKaigi 2026 PHPerコードバトル writeup #1"
 description: PHPerKaigi 2026 の企画のPHPによるショートコーディングバトルのwriteupです。
 ---
 
@@ -24,8 +24,8 @@ PHPerコードバトルは次のようなルールで行われました。
 > 標準入力の各行に、英小文字からなる文字列が一つずつ並んでいます。\
 > 与えられた文字列が回文（前から読んでも後ろから読んでも同じになる文字列）であれば「Yes」、そうでなければ「No」を出力してください。\
 > 「racecar」なら「Yes」、「hello」なら「No」を出力します。\
-> すべての行についてこの手順を繰り返してください。
-> https://t.nil.ninja/phperkaigi/2026/code-battle/golf/2/watch
+> すべての行についてこの手順を繰り返してください。\
+[https://t.nil.ninja/phperkaigi/2026/code-battle/golf/2/watch](https://t.nil.ninja/phperkaigi/2026/code-battle/golf/2/watch)
 
 回文かどうかを判定するというお題です。PHPには `strrev()` という文字列を反転させる関数があるためこれを使えば簡単です。\
 気をつけるべきこととしては、`fgets()` 関数の結果には改行が含まれるため、それを考慮する必要があります。\
@@ -64,11 +64,11 @@ $s" ? "Yes
 これで `trim()` の使用を省略する代わりに `"` 記号を4つ使い、差し引き2バイトの節約、スコアは55となります。
 
 ## オフライン予選：ラウンド2 - 素数
-> 標準入力の各行に、1 以上 10000 以下の整数が一つずつ並んでいます。
-> 与えられた整数が素数であれば「Yes」、そうでなければ「No」を出力してください。
-> 「7」なら「Yes」、「9」なら「No」を出力します。
-> すべての行についてこの手順を繰り返してください。
-> https://t.nil.ninja/phperkaigi/2026/code-battle/golf/3/watch
+> 標準入力の各行に、1 以上 10000 以下の整数が一つずつ並んでいます。\
+> 与えられた整数が素数であれば「Yes」、そうでなければ「No」を出力してください。\
+> 「7」なら「Yes」、「9」なら「No」を出力します。\
+> すべての行についてこの手順を繰り返してください。\
+> [https://t.nil.ninja/phperkaigi/2026/code-battle/golf/3/watch](https://t.nil.ninja/phperkaigi/2026/code-battle/golf/3/watch)
 
 最終的なコードはこうなり、スコアは74でした。
 
@@ -114,8 +114,8 @@ for (;$n=fgets(STDIN);print $s?"Yes
 > 標準入力の各行に、英小文字からなる文字列が一つずつ並んでいます。\
 > 文字列に含まれる各文字の出現回数を「文字:回数」の形式で、アルファベット順にカンマ区切りで出力してください。\
 > 「banana」なら「a:3,b:1,n:2」を出力します。\
-> すべての行についてこの手順を繰り返してください。
-> https://t.nil.ninja/phperkaigi/2026/code-battle/golf/4/watch
+> すべての行についてこの手順を繰り返してください。\
+> [https://t.nil.ninja/phperkaigi/2026/code-battle/golf/4/watch](https://t.nil.ninja/phperkaigi/2026/code-battle/golf/4/watch)
 
 この問題はPHPのあまり使われない関数 [count_chars](https://www.php.net/manual/ja/function.count-chars.php) を使い、次のように書くことができました。スコアは96です。　
 
