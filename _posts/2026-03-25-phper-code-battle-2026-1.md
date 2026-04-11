@@ -168,3 +168,5 @@ PHPerコードバトルのレギュレーションでは警告は抑制されて
 
 
 次回はオフライン予選のエキシビジョン問題2つについてを、早めに書いてアップする予定です。
+
+次回: [PHPerKaigi 2026 PHPerコードバトル writeup #2]({{ site.baseurl }}{% post_url 2026-04-11-phper-code-battle-2026-2 %})
